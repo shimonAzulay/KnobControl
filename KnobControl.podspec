@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   	s.author       = { "Shimon Azulay" => "sazulay3@gmail.com" }
   	s.platform     = :ios, "9.0"
-	#s.source       = { :git => "http://shimonAzulay/KnobControl.git", :tag => "#{spec.version}" }
-	s.source       = { :path => '.' }
+	s.source       = { :git => "https://github.com/shimonAzulay/KnobControl.git", :tag => "1.0.0" }
+	#s.source       = { :path => '.' }
 
 	#spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 	s.source_files = "KnobControl"
